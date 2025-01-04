@@ -1,0 +1,166 @@
+/* left section */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #dfe9f5;
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  position: fixed; /* Change to fixed */
+  top: 0; /* Adjust top position */
+  height: 100vh;
+  left: 0;
+  background: #fff;
+  width: 280px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  margin-left: 15px;
+}
+
+.logo img {
+  width: 190px;
+  height: 100px;
+}
+
+a {
+  position: relative;
+  color: rgb(7, 7, 125);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+nav .fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+a:hover {
+  background: #eee;
+}
+
+.logo:hover {
+  background: none;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+}
+
+
+/* Right section */
+
+.main {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-left: 280px; /* Adjusted to match the width of your left navigation */
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.main h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(7, 7, 125);
+  text-align: center;
+}
+
+.main a {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: rgb(7, 7, 125);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.main a:hover {
+  background-color: #0056b3;
+}
+
+.main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.main th,
+.main td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 10px;
+}
+
+.main th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.main tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.main td a {
+  color: rgb(7, 7, 125);
+  background-color: #f9f9f9;
+  text-decoration: none;
+}
+
+.main td a:hover {
+  background-color: #f9f9f9;
+}
+
+.main td a:hover {
+  text-decoration: none;
+}
+
+.main td a i {
+  margin-right: 5px;
+}
+
+.main td[colspan='11'] {
+  text-align: center;
+  color: #666;
+}
